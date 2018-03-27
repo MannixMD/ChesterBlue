@@ -313,7 +313,7 @@ dl.details dd {
 }
 
 .jumpbox-sub-link:hover {
-    background-color: #313131;
+    background-color: #393939;
 }
 
 /* Miscellaneous styles
@@ -385,11 +385,11 @@ li.row strong {
 }
 
 li.row:hover {
-	background-color: transparent;
+	background-color: #383838;
 }
 
 li.row:hover dd {
-	border-left-color: #232323;
+	border-left-color: #444444;
 }
 
 .rtl li.row:hover dd {
@@ -1157,21 +1157,24 @@ input.disabled {
 }
 
 .dropdown-extended ul li {
-	border-top-color: #B9B9B9;
+	border-top-color: #666666;
 }
 
 .dropdown-extended ul li:hover {
-    background-color: #313131;
+    background-color: #393939;
     color: #CCCCCC;
 }
 
 .dropdown-extended .header, .dropdown-extended .footer {
-    border-color: #414141;
+    border-color: #666666;
     color: #CCCCCC;
 }
 
 .dropdown-extended .footer {
-	border-top-style: solid;
+    background-image: url(./images/thcell.jpg);
+	background-repeat: repeat-x;
+	background-position: top left;
+	border-top-style: solid
 	border-top-width: 1px;
 }
 
@@ -1186,16 +1189,16 @@ input.disabled {
 }
 
 .dropdown .pointer-inner {
-	border-color: #FFF transparent;
+	border-color: #313131 transparent;
 }
 
 .dropdown-extended .pointer-inner {
-	border-color: #F1F8FF transparent;
+	border-color: #313131 transparent;
 }
 
 .dropdown .dropdown-contents {
-	background: #0e3c6d;
-    border-color: #313131;
+	background: #313131;
+    border-color: #414141;
 	box-shadow: 0 0 5px #000000;
 }
 
